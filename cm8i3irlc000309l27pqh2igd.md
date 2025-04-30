@@ -5,6 +5,7 @@ seoDescription: "Discover my new Hashnode blog where I share insights on math, p
 datePublished: Fri Mar 21 2025 01:22:54 GMT+0000 (Coordinated Universal Time)
 cuid: cm8i3irlc000309l27pqh2igd
 slug: my-first-post-on-hashnode
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746026251728/f02d5722-1b9a-4bfe-8c48-5afb0e0a248f.webp
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1742520537368/1d27d2ed-a567-4eda-aa1f-d023b731ec8a.png
 
 ---
