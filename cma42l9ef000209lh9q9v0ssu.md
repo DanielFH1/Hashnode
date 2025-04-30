@@ -5,6 +5,7 @@ seoDescription: "Learn the basics of quantum computing, its key concepts, and ho
 datePublished: Wed Apr 30 2025 15:07:29 GMT+0000 (Coordinated Universal Time)
 cuid: cma42l9ef000209lh9q9v0ssu
 slug: qc1-understanding-quantum-computing-book-review
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746026170841/fe47d9b9-9b7d-4d42-81ad-9c78e7b45ff8.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1746025908824/f219e3c7-ae91-48c1-a91c-25217a941d97.jpeg
 tags: technology, quantum-computing, quantum-mechanics, book-summary
 
