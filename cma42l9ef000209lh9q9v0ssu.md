@@ -26,6 +26,10 @@ While quantum computers aren't universally faster than classical computers, they
 * **Problem-Solving:** They're particularly effective in solving complex problems like factoring large numbers or simulating molecular structures.
     
 
+## 📉 Motivation: Moore's Law and the New Paradigm
+
+Until now, the strategy has been to reduce the size of transistors in order to fit more onto a limited surface area, utilizing techniques like EUV lithography to integrate them using lasers. However, we have reached the limit of shrinking semiconductor transistor sizes. As transistors continue to get smaller, they are reaching atomic-scale sizes, making it physically impossible to reduce them further. Additionally, as the size of transistors approaches that of atoms, we enter the realm of quantum mechanics. This leads to the issue of quantum tunneling, where unwanted currents begin to leak due to the transistor's quantum effects, causing the problem of leakage current to become increasingly severe. As a result, quantum computers are being presented as a potential solution.
+
 ## 🧪 Practical Applications
 
 Quantum computing holds promise in various domains:
