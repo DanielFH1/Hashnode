@@ -1,5 +1,5 @@
 ---
-title: "QC(1) : Understanding Quantum Computing (Book review)"
+title: "[QC #1] Book Summary: "An Introduction to Quantum Computers""
 seoTitle: "Introduction to Quantum Computing: Key Concepts & Applications"
 seoDescription: "Learn the basics of quantum computing, its key concepts, and how it's transforming the tech world."
 datePublished: Wed Apr 30 2025 15:07:29 GMT+0000 (Coordinated Universal Time)
