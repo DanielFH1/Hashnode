@@ -21,7 +21,7 @@ Gradient descent is the backbone of machine learning optimization, powering ever
 
 ### The Big Picture
 
-Gradient descent is an algorithm that minimizes the cost function \\(J(w,b)\\) by iteratively finding the optimal parameters.
+Gradient descent is an algorithm that minimizes the cost function \\(\\(J(w,b)\\)\\) by iteratively finding the optimal parameters.
 
 **Intuitive Understanding:** Think of it like hiking down a mountain with fog. You can only see your immediate surroundings, so you look around 360 degrees, find the steepest downward slope, take one step in that direction, and repeat this process until you reach the bottom (local minimum).
 
@@ -29,13 +29,13 @@ Gradient descent is an algorithm that minimizes the cost function \\(J(w,b)\\) b
 
 The cost function we're trying to minimize is:
 
-J(w,b)=12m∑i=1m(fw,b(x(i))−y(i))2
+\\\[ J(w,b)=12m∑i=1m(fw,b(x(i))−y(i))2\\\]
 
 The gradient descent update rules are:
 
-w=w−α×∂J∂w
+\\\[w=w−α×∂J∂w\\\]
 
-b=b−α×∂J∂b
+\\\[b=b−α×∂J∂b\\\]
 
 *(Note: = means assignment, not equality)*
 
@@ -45,7 +45,7 @@ b=b−α×∂J∂b
     
 * We average across all data points for generalization
     
-* The factor of \\(1/2\\) simplifies derivative calculations
+* The factor of \\(\\(1/2\\)\\) simplifies derivative calculations
     
 
 **Key Components:**
@@ -99,15 +99,15 @@ Learning rate α is the most important hyperparameter in gradient descent.
 
 Compute the gradients at the current position:
 
-∂J∂w=1m∑i=1m(fw,b(x(i))−y(i))⋅x(i)
+\\\[∂J∂w=1m∑i=1m(fw,b(x(i))−y(i))⋅x(i)\\\]
 
-∂J∂b=1m∑i=1m(fw,b(x(i))−y(i))
+\\\[∂J∂b=1m∑i=1m(fw,b(x(i))−y(i))\\\]
 
 **Step 3: Update Parameters**
 
-w=w−α∂J∂w
+\\\[w=w−α∂J∂w\\\]
 
-b=b−α∂J∂b
+\\\[b=b−α∂J∂b\\\]
 
 **Step 4: Repeat**
 
@@ -188,13 +188,13 @@ b = b - α × (∂J/∂b)  // Use already changed w - WRONG!
 
 Stop when partial derivatives are exactly zero:
 
-∂J∂w=0 and ∂J∂b=0
+\\\[∂J∂w=0 && ∂J∂b=0\\\]
 
 **Practical Implementation**
 
 Stop when smaller than epsilon (ε):
 
-|∂J∂w|&lt;ε and |∂J∂b|&lt;ε
+\\\[|∂J∂w|&lt;ε and |∂J∂b|&lt;ε\\\]
 
 **Why use epsilon?**
 
