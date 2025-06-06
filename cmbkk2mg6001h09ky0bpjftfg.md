@@ -29,13 +29,13 @@ Gradient descent is an algorithm that minimizes the cost function \\(J(w,b)\\) b
 
 The cost function we're trying to minimize is:
 
-\\\[J(w,b) = \\frac{1}{2m} \\sum\_{i=1}^{m} (f\_{w,b}(x^{(i)}) - y^{(i)})^2\\\]
+J(w,b)=12m∑i=1m(fw,b(x(i))−y(i))2
 
 The gradient descent update rules are:
 
-\\\[w = w - \\alpha \\times \\frac{\\partial J}{\\partial w}\\\]
+w=w−α×∂J∂w
 
-\\\[b = b - \\alpha \\times \\frac{\\partial J}{\\partial b}\\\]
+b=b−α×∂J∂b
 
 *(Note: = means assignment, not equality)*
 
@@ -99,15 +99,15 @@ Learning rate α is the most important hyperparameter in gradient descent.
 
 Compute the gradients at the current position:
 
-\\\[\\frac{\\partial J}{\\partial w} = \\frac{1}{m} \\sum\_{i=1}^{m} (f\_{w,b}(x^{(i)}) - y^{(i)}) \\cdot x^{(i)}\\\]
+∂J∂w=1m∑i=1m(fw,b(x(i))−y(i))⋅x(i)
 
-\\\[\\frac{\\partial J}{\\partial b} = \\frac{1}{m} \\sum\_{i=1}^{m} (f\_{w,b}(x^{(i)}) - y^{(i)})\\\]
+∂J∂b=1m∑i=1m(fw,b(x(i))−y(i))
 
 **Step 3: Update Parameters**
 
-\\\[w = w - \\alpha \\frac{\\partial J}{\\partial w}\\\]
+w=w−α∂J∂w
 
-\\\[b = b - \\alpha \\frac{\\partial J}{\\partial b}\\\]
+b=b−α∂J∂b
 
 **Step 4: Repeat**
 
@@ -188,13 +188,13 @@ b = b - α × (∂J/∂b)  // Use already changed w - WRONG!
 
 Stop when partial derivatives are exactly zero:
 
-\\\[\\frac{\\partial J}{\\partial w} = 0 \\text{ and } \\frac{\\partial J}{\\partial b} = 0\\\]
+∂J∂w=0 and ∂J∂b=0
 
 **Practical Implementation**
 
 Stop when smaller than epsilon (ε):
 
-\\\[\\left|\\frac{\\partial J}{\\partial w}\\right| &lt; \\varepsilon \\text{ and } \\left|\\frac{\\partial J}{\\partial b}\\right| &lt; \\varepsilon\\\]
+|∂J∂w|&lt;ε and |∂J∂b|&lt;ε
 
 **Why use epsilon?**
 
@@ -331,6 +331,6 @@ The principles you've learned here apply to everything from simple linear regres
 
 ---
 
-*This guide is based on Andrew Ng's Machine Learning course materials and practical industry experience. For hands-on practice, try implementing gradient descent from scratch before using library implementations.*
+*This guide is based on* [*Andrew Ng's Machine Learning course*](https://www.coursera.org/specializations/machine-learning-introduction) *materials and practical industry experience. For hands-on practice, try implementing gradient descent from scratch before using library implementations.*
 
-Note : I thought $$ was the common way and correct syntax for latex in markdown, and I don’t know why but $$ doesn’t work and only \\\[ and \\( works.
+Note : I thought ‘$’ was the common way and correct syntax for latex in markdown , and I don′t know why but doesn’t work and only ‘\\\[‘ and ‘\\(‘ works.
