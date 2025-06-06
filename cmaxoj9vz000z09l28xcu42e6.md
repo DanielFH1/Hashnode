@@ -5,6 +5,7 @@ seoDescription: "Explore Alan Turing's influential paper on AI, covering the Tur
 datePublished: Wed May 21 2025 08:27:07 GMT+0000 (Coordinated Universal Time)
 cuid: cmaxoj9vz000z09l28xcu42e6
 slug: ai-1-in-depth-analysis-of-computing-machinery-and-intelligence
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/UFNPoBGwyXU/upload/933b2920c54e52d7a340d124737d6fb0.jpeg
 tags: ai, artificial-intelligence, computer-science, paper-review
 
 ---
