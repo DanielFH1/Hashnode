@@ -5,6 +5,7 @@ seoDescription: "Learn how gradient descent optimizes machine learning models by
 datePublished: Fri Jun 06 2025 08:40:54 GMT+0000 (Coordinated Universal Time)
 cuid: cmbkk2mg6001h09ky0bpjftfg
 slug: ai-2-understanding-gradient-descent-the-heart-of-machine-learning
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/efruITOl8P0/upload/8a4019e14481ec1c701fd8819d001d90.jpeg
 tags: ai, artificial-intelligence, data-science, machine-learning, coursera
 
 ---
