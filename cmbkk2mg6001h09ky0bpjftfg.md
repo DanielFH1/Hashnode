@@ -333,4 +333,4 @@ The principles you've learned here apply to everything from simple linear regres
 
 *This guide is based on* [*Andrew Ng's Machine Learning course*](https://www.coursera.org/specializations/machine-learning-introduction) *materials and practical industry experience. For hands-on practice, try implementing gradient descent from scratch before using library implementations.*
 
-Note : I thought ‘$’ was the common way and correct syntax for latex in markdown , but at least in Hashnode the correct syntax was double backslash and parenthesis.
+Note : I thought ‘$$’ was the common way and correct syntax for latex in markdown , but at least in Hashnode the correct syntax was double backslash and parenthesis.
