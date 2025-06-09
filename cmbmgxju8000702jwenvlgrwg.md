@@ -180,7 +180,7 @@ at(A,B) ∧ at(B,C) → at(A,C)
 same_location(X,Y) → can_walk(X,Y)
 
 % Driving with car access
-at(car,L) ∧ at(I,L) → can_drive(car, anywhere_in_county)
+at(car,L) && at(I,L) → can_drive(car, anywhere_in_county)
 ```
 
 ### Reasoning Process
@@ -213,7 +213,7 @@ Professor Bar-Hillel raised significant concerns about McCarthy's approach:
 > "If I am in the immediate spatial neighborhood of the car, and the car is at home, does that necessarily mean I am at home?"
 
 ```python
-at(I, near(car)) ∧ at(car, home) → at(I, home) ?
+at(I, near(car)) && at(car, home) → at(I, home) ?
 ```
 
 **Practical Limitations:**
